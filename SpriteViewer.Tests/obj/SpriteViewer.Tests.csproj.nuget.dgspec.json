@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.Tests/SpriteViewer.Tests.csproj": {}
+  },
+  "projects": {
+    "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.Tests/SpriteViewer.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.Tests/SpriteViewer.Tests.csproj",
+        "projectName": "SpriteViewer.Tests",
+        "projectPath": "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.Tests/SpriteViewer.Tests.csproj",
+        "packagesPath": "/home/john/.nuget/packages/",
+        "outputPath": "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/john/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.csproj": {
+                "projectPath": "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.csproj",
+        "projectName": "SpriteViewer",
+        "projectPath": "/mnt/store/dev/src/raylib/c#/SpriteViewer/SpriteViewer.csproj",
+        "packagesPath": "/home/john/.nuget/packages/",
+        "outputPath": "/mnt/store/dev/src/raylib/c#/SpriteViewer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/john/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

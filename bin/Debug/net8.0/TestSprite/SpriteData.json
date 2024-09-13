@@ -1,0 +1,21 @@
+{
+    "dimensions": {"w": 32, "h": 48},
+      "row": 0,
+      "textureFilename":"TestSprite/spritesheet.png",
+      "Animations": [{
+        "frameIndices": [
+          0,
+          1,
+          2
+        ],
+        "name": "walk_down"
+      },
+      {
+        "frameIndices": [
+          3,
+          4,
+          5
+        ],
+        "name": "walk_left"
+      }]
+}
